@@ -1,4 +1,11 @@
 ###################
+Apa ini ?
+###################
+
+ini hasil dari modul yang diberi ketika proses belajar mengajar.
+tujuan utama webapps CRUD dengan judul news.
+
+###################
 What is CodeIgniter
 ###################
 
