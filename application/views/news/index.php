@@ -15,9 +15,9 @@
                 <?php echo $news_item['text']; ?>
             </td>
             <td>
-                <a href="<?php echo site_url('news/view/'.$news_item['id']); ?>">View</a> |
-                <a href="<?php echo site_url('news/edit/'.$news_item['id']); ?>">Edit</a> |
-                <a href="<?php echo site_url('news/delete/'.$news_item['id']); ?>" onClick="return confirm('Are you sure you want to delete?')">Delete</a>
+                <a href="<?php echo site_url('news/view/'.$news_item['id']); ?>" class="btn btn-sm btn-info">View</a> 
+                <a href="<?php echo site_url('news/edit/'.$news_item['id']); ?>" class="btn btn-sm btn-warning">Edit</a> 
+                <a href="<?php echo site_url('news/delete/'.$news_item['id']); ?>" onClick="return confirm('Are you sure you want to delete?')" class="btn btn-sm btn-danger">Delete</a>
             </td>
         </tr>
         <?php endforeach; ?>
